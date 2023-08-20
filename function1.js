@@ -39,3 +39,28 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("Sumit"))
 console.log(loginUserMessage("sumit"))
 
+
+
+
+const user = {
+    username: "Sumit",
+    price: 199
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and the price is ${anyobject.price}`);
+    
+}
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+
+const myNewArray = [200, 400, 600, 800]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 400, 600, 800]));
